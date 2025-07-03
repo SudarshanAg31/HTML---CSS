@@ -1,0 +1,18 @@
+body{
+    border-style: solid;
+    border-width: 5px;
+    margin:0;
+    /* when pic in out of border so we use disply flow-root */
+    display: flow-root;
+    
+}
+#pic1{
+    margin: 10px;
+    /* text are just right to the pic */
+    float: left;
+}
+#pic2{
+    margin:10px;
+    /* text are just left to the pic */
+    float: right;
+}
