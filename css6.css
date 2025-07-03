@@ -1,0 +1,23 @@
+h1{ 
+    /* first 3px indecate right shadow
+       second 3px indecate bottom shadow
+       third 5px indecate blur shadow
+       four indecate color shadow
+
+       , for another shadow for same element
+       
+       first -3px indecate left shadow
+       second -3px indecate top shadow
+       third 5px indecate blur shadow
+       four indecate color shadow
+    */
+    text-shadow: 3px 3px 5px red, -3px -3px 5px blue;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    /* shadow property is same */
+    box-shadow: 6px 6px 15px rgb(38, 89, 89) ;
+
+}
