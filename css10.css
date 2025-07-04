@@ -1,0 +1,22 @@
+div{
+/* div in the block level */
+    background-color: aqua;
+    width: 100px;
+    height:100px;
+    display:inline-block ;
+    /* if we write (block) so no changes bcz it a block level element*/
+    /* if we write (inline) so it change to inline but looss it width and height */
+    /* if we use (inline-block) it not looes it property of width and height */
+    /* if we use (none) so it no longer exist */
+}
+
+span{
+    /* span is inline */
+    background-color: blueviolet;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    /* (block) change bcz its inline*/
+    /* (inline) no changes occur */
+    /* due to (inline-block) it not looes its property of width and height */
+}
