@@ -1,0 +1,9 @@
+li:hover{
+    background-color: aqua;
+}
+li:not(:hover){/*if cursor it not there so its property work*/
+    background-color: burlywood;
+}
+li:nth-child(even){/*at even its property work*/
+    background-color: cadetblue;
+}
