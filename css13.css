@@ -1,5 +1,6 @@
 #abc{
     border:5px solid;
+    border-color: chocolate;
     /* apply css to every p present in div */
 }
 #abc p{/*it mean every element in div or family */
@@ -14,4 +15,7 @@
 }
 #abc + p{/*adjacent to the first element to the div*/
     border-style:dotted;
+}
+body{
+    background-color: black;
 }
