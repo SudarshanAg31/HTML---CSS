@@ -1,0 +1,67 @@
+MERN
+>> M:mongoDB
+>> E:ExpressJs
+>> A:Angular
+>> N:NodeJs
+
+Three Pillars
+    >>HTML(Hyper text markup language)
+    >>CSS(cascading Style sheets)
+    >>JS(java Script)
+
+other stack
+MERN ,MEAN, java fullStack
+
+WebDev
+    >> Building/Developers Team
+    >> Testing Team (Manual Testers / Automated testers)
+    >> Hosting Team (Devops Team)
+    >>Maintenance Team /support Team
+
+SDLC(software development life cycle):
+    >>waterfall Model
+    >>Agile Model
+    ...
+    ...
+    ...
+    >> RAD(Rapid Application Development) Model
+
+URL (Uniform Resource Locator)
+    https://education.sudarshan.edu/fullStack
+    
+    https: protocol
+    sudarshan: sever/domain Name
+    education: sub-domain
+    .edu : TLD(Top Level domain)
+    fullStack:path/Location
+
+protocol:
+    >>set of rule /instructions
+        https: hyper text transfer protocol
+        http:  hyper text transfer protocol Secure
+        udp: user datagram protocol
+        ftp: file transfer protocol
+        tcp: Transmission transfer protocol
+        ip: internet protocol(ipv4 and ipv6)
+
+>> client /web page ------------(uName & uPwd)---------------->Instagram Server
+>>SSL (Secure Socket layer) Certificate
+
+Server /domain Name:
+>>unique Identifier
+    >>Eg: Google,Amazon
+
+Sub-Domain Name:
+    >>gMeet
+    >>gMap
+    >>gDrive
+    >>gPhoto
+    >>gFiles
+    >>gPay
+
+TLD(Top Level Domain)
+    Amazon.in
+    Amazon.com
+    Amazon.edu
+    Amazon.org
+    Amazon.uk

@@ -1,0 +1,21 @@
+#abc{
+    border:5px solid;
+    border-color: chocolate;
+    /* apply css to every p present in div */
+}
+#abc p{/*it mean every element in div or family */
+    background-color: aqua;
+}
+#abc > p{/* apply to the outer div or parent div*/
+    font-style: italic;
+    font-weight: 800;
+}
+#abc ~ p{/*this is general or outer the family but sibling of body */
+    background-color: blueviolet;
+}
+#abc + p{/*adjacent to the first element to the div*/
+    border-style:dotted;
+}
+body{
+    background-color: black;
+}

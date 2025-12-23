@@ -1,0 +1,14 @@
+h1{
+    border-style:solid ;
+    border-color: deepskyblue;
+    border-width: 3px;
+    border-radius: 20px;
+}
+p{
+    border-top: 3px solid red;
+    border-bottom: 3px solid pink;
+    border-left: 3px dotted yellow;
+    border-left: 3px dotted cyan;
+
+    border-radius: 10px;
+}

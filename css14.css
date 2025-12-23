@@ -1,0 +1,14 @@
+a:link{/*when we want to add style on link*/
+    color:burlywood;
+}
+a:hover{/*when we take cursor to it change its property*/
+    color: black;
+    font-size: 1.1em;
+}
+a:active{/*when we left click on it changes it prorerty*/
+    color: chartreuse;
+    font-size: 3em;
+}
+a:visited{/*when we visited the link so property get change*/
+    color:pink;
+}

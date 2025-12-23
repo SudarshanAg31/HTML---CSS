@@ -1,0 +1,22 @@
+body{
+    /* text are just beside browser at zero px */
+    margin: 0px;
+}
+.box{
+    font-size:2em;
+    width: 100px;
+    height: 100px;
+    border:5px dotted ;
+}
+#box1{
+    background-color: aqua;
+    /* same for top left right */
+    margin-bottom: 50px;
+}
+#box2{
+    /*  */
+    background-color: red;
+    /* auto move left until it touch screen(same for right top bottom)*/
+    /* for center only margin:auto */
+    margin-left: auto;
+}

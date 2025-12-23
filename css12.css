@@ -1,0 +1,7 @@
+body{
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;/* image ins not repate*/
+    background-position: center;/*it center horizantaly*/
+    background-attachment: fixed ;/*image is fixed in page*/
+    background-size:cover ;/*it cover whole web page by single pic */
+}

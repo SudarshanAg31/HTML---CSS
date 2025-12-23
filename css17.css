@@ -1,0 +1,26 @@
+h1::first-letter{/*the property of css work on frist letter*/
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{/*the property work in frist line*/
+    font-style: italic;
+    color: rgb(112, 112, 112);
+}
+p::selection{/*when we select the text then it work*/
+    color: chartreuse;
+    background-color: brown;
+}
+#fruit li::before{/*apply before list element */
+    content:"✔️";
+}
+#apple::after{/*apply after the list element */
+    content: "🍎";
+}
+#banana::after{/*apply after the list element*/
+    content: "🍌";
+
+}
+#orange::after{/*apply after the list element*/
+    content: "🍊";
+}
+

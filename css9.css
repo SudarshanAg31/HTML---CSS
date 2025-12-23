@@ -1,0 +1,18 @@
+#box{
+border: 2px solid ;
+height: 75px;
+overflow: auto; 
+/*
+visible: no changes 
+    
+hidden: hide overflow
+
+clip:same as hidden
+overflow-clip-margin:10px
+it margin 10px overflow
+
+scroll:create scroll bar for overlflow text
+
+auto: if needed so make scroll bar
+*/
+}
