@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>learing form</h1>
+    <form action="try.html">
+      <div>
+        <label for="NAME">NAME: </label>
+        <input type="text" placeholder="enter your name" id="NAME" required />
+      </div>
+      <br />
+      <div>
+        <label for="Password">Password: </label>
+        <input type="password" placeholder="enter your password" id="Password" required
+        minlength="5" maxlength="10"/>
+      </div><br>
+        <div>
+        <label for="Email">Email: </label>
+        <input type="email" placeholder="enter your Email" id="Email" required/>
+      </div><br>
+      <div>
+        <label for="date">Date: </label>
+        <input type="date" placeholder="enter your date" id="date" required/>
+      </div><br>
+      <div>
+        <label for="age">Age: </label>
+        <input type="number" placeholder="enter your age" id="age" required
+        min="0"
+        max="120"/>
+      </div><br>
+      <div>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="can't say">can't say
+      </div><br>
+        <div>
+        <label for="age">term & condition </label>
+        <input type="checkbox" id="age" checkbox required/>
+        </div><br>
+        <div>
+        <label for="comment">Comment: </label>
+        <textarea placeholder="enter your feedback" rows="6" cols="25"></textarea>
+        </div><br>
+        <div>
+            <select >
+                <option value="MICROSOFT">microsoft</option>
+                <option value="GOOGLE">google</option>
+                <option value="AMAZON">amazon</option>
+                <option value="SAMSUNG">samsung</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="file">FILE:</label>
+            <input type="file" accept=".pdf" id="file">
+        </div><br>
+        <div>
+            <label for="test">Difficulty</label>
+            <input type="range" id="test">
+        </div><br>
+      <div>
+        <button type="submit">submit</button>
+      </div>
+            <div>
+        <button type="reset">reset</button>
+      </div>
+    </form>
+  </body>
+</html>
