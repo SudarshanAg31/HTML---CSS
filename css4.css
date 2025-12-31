@@ -1,5 +1,5 @@
 /* if any name have one word so we can avoid this("") like bold 
-    but if it have two word like courier new so we use ("")*/
+    but if it have two word like (courier new) so we use ("")*/
 h1{
     /* we add to fonts if one is not there so second work like back-up */
     font-family: Verdana, arial ;
