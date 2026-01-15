@@ -1,0 +1,17 @@
+.cntr{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: blueviolet;
+}
+.cntr:hover{
+    border-radius: 100%;
+    background-color: chartreuse;
+}
+button:hover{
+    background-color: blue;
+}
+input:focus{
+    background-color: aquamarine;
+    font-style: italic;
+}
