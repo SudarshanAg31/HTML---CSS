@@ -12,3 +12,6 @@ a:active{/*when we left click on it changes it prorerty*/
 a:visited{/*when we visited the link so property get change*/
     color:pink;
 }
+a:not(:hover){
+    color: blueviolet;
+}

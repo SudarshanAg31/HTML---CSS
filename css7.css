@@ -18,5 +18,6 @@ body{
     background-color: red;
     /* auto move left until it touch screen(same for right top bottom)*/
     /* for center only margin:auto */
-    margin-left: auto;
+    /* margin-left: auto; */
+    margin:auto;
 }

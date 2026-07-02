@@ -11,7 +11,7 @@ p::selection{/*when we select the text then it work*/
     background-color: brown;
 }
 #fruit li::before{/*apply before list element */
-    content:"✔️";
+    /* content:"✔️"; */
 }
 #apple::after{/*apply after the list element */
     content: "🍎";
@@ -22,5 +22,10 @@ p::selection{/*when we select the text then it work*/
 }
 #orange::after{/*apply after the list element*/
     content: "🍊";
+}
+#fruit li::marker{
+    content: "✔️";
+    color: aquamarine;
+    font-size:1.2em;
 }
 
